@@ -78,11 +78,13 @@ const Draw = () => {
 
 reset.addEventListener("click", () => {
     turn0= true;
+    count= 0;
     enableboxes();
 })
 
 New.addEventListener("click", () => {
     turn0= true;
+    count= 0;
     enableboxes();
     div.classList.add("hide");
 })
